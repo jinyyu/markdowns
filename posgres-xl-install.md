@@ -49,3 +49,13 @@
 - stop cluster
 
         pgxc_ctl  -c  ~/pgxc_ctl/pgxc_ctl.conf stop all
+
+
+- test 
+        psql -p 20008
+        create database test;
+        \c test;
+        create table test(id int,name text);
+        insert into test(id, name) values(1, 'abc');
+        insert into test(id, name) values(2, 'def');
+        insert into test(id, name) values(3, 'kkk');
