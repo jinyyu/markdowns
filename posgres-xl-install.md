@@ -48,7 +48,7 @@
 
 - stop cluster
 
-        gxc_ctl  -c  ~/pgxc_ctl/pgxc_ctl.conf stop all
+        pgxc_ctl  -c  ~/pgxc_ctl/pgxc_ctl.conf stop all
 
 
 - test 
