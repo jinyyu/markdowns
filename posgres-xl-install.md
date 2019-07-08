@@ -1,5 +1,6 @@
 
 - confiugre hosts
+
         groupadd  postgres
         useradd -rmg postgres postgres
         192.168.147.135 node1
